@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.Double?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1100.0" translateX="50.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+      <ImageView fitHeight="655.0" fitWidth="1100.0" layoutX="-50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Extras/pool.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="101.0" fitWidth="301.0" layoutX="42.0" layoutY="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Extras/stock.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="101.0" fitWidth="301.0" layoutX="558.0" layoutY="600.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Extras/stock.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="507.0" fitWidth="906.0" layoutX="-2.0" layoutY="98.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Extras/pool%20board.jpg" />
+         </image>
+      </ImageView>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" height="430.0" layoutX="35.0" layoutY="135.0" stroke="#0000007d" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" width="830.0">
+            <fill>
+                <RadialGradient centerX="0.4777777777777778" centerY="0.525777279728023" cycleMethod="REFLECT" radius="0.6511627906976745">
+                    <stops>
+                        <Stop color="#9c5ee8" />
+                        <Stop color="#5bbaf1" offset="0.0076628352490421435" />
+                        <Stop color="#053261" offset="1.0" />
+                    </stops>
+                </RadialGradient>
+            </fill></Rectangle>
+        <Polygon layoutX="55.0" layoutY="550.0" stroke="BLACK" strokeType="INSIDE">
+            <points>
+                <Double fx:value="20.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="370.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="380.0" />
+                <Double fx:value="15.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="15.0" />
+            </points>
+            <fill>
+                <LinearGradient cycleMethod="REFLECT" endX="0.5095238095238095" endY="0.3571428571428571" startX="0.5095238095238095" startY="0.7761904761904762">
+                    <stops>
+                        <Stop color="#04395f" />
+                        <Stop color="#5d6c6d" offset="1.0" />
+                    </stops>
+                </LinearGradient>
+            </fill>
+            <effect>
+                <DropShadow spread="0.44" />
+            </effect>
+        </Polygon>
+        <Polygon layoutX="464.0" layoutY="135.0" stroke="#00000027" strokeType="INSIDE" strokeWidth="0.0">
+            <points>
+                <Double fx:value="0.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="380.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="360.0" />
+                <Double fx:value="15.0" />
+                <Double fx:value="10" />
+                <Double fx:value="15" />
+
+            </points>
+            <effect>
+                <DropShadow spread="0.43" />
+            </effect>
+            <fill>
+                <LinearGradient cycleMethod="REFLECT" endX="0.5095238095238095" endY="0.29515937078293775" startX="0.5095238095238095" startY="0.7885871770748629">
+                    <stops>
+                        <Stop color="#505b70" />
+                        <Stop color="#063756d4" offset="1.0" />
+                    </stops>
+                </LinearGradient>
+            </fill>
+        </Polygon>
+        <Polygon layoutX="35.0" layoutY="155.0" stroke="BLACK" strokeType="INSIDE">
+            <points>
+                <Double fx:value="0.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="390" />
+                <Double fx:value="15.0" />
+                <Double fx:value="370.0" />
+                <Double fx:value="15" />
+                <Double fx:value="20" />
+            </points>
+            <fill>
+                <LinearGradient endX="0.14285714285714285" endY="0.23809523809523803" startX="0.9047619047619049" startY="0.23809523809523786">
+                    <stops>
+                        <Stop color="#5a6b79" />
+                        <Stop color="#063150" offset="1.0" />
+                    </stops>
+                </LinearGradient>
+            </fill>
+            <effect>
+                <DropShadow spread="0.47" />
+            </effect>
+        </Polygon>
+        <Polygon layoutX="465.0" layoutY="550.0" stroke="BLACK" strokeType="INSIDE">
+            <points>
+                <Double fx:value="10.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="360.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="380.0" />
+                <Double fx:value="15.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="15" />
+            </points>
+            <fill>
+                <LinearGradient cycleMethod="REFLECT" endX="0.5095238095238095" endY="0.3571428571428571" startX="0.5095238095238095" startY="0.7761904761904762">
+                    <stops>
+                        <Stop color="#055262" />
+                        <Stop color="#687d7f" offset="1.0" />
+                    </stops>
+                </LinearGradient>
+            </fill>
+            <effect>
+                <DropShadow spread="0.42" />
+            </effect>
+        </Polygon>
+      <ImageView fitHeight="230.0" fitWidth="32.5" layoutX="-40.0" layoutY="235.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Extras/scroll%20bar.png" />
+         </image>
+      </ImageView>
+        <Polygon fx:id="p1" layoutX="55.0" layoutY="135.0" rotate="180.0" stroke="BLACK" strokeType="INSIDE">
+            <points>
+                <Double fx:value="10.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="360.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="380.0" />
+                <Double fx:value="15.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="15" />
+            </points>
+            <fill>
+                <LinearGradient cycleMethod="REFLECT" endX="0.5095238095238095" endY="0.14639903241835395" startX="0.5095238095238095" startY="0.7761904761904762">
+                    <stops>
+                        <Stop color="#043c62" />
+                        <Stop color="#456a7fd4" offset="1.0" />
+                    </stops>
+                </LinearGradient>
+            </fill>
+            <effect>
+                <DropShadow spread="0.44" />
+            </effect>
+        </Polygon>
+        <Polygon layoutX="850.0" layoutY="155.0" stroke="BLACK" strokeType="INSIDE">
+            <points>
+                <Double fx:value="0.0" />
+                <Double fx:value="20.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="370.0" />
+                <Double fx:value="15.0" />
+                <Double fx:value="390.0" />
+                <Double fx:value="15" />
+                <Double fx:value="0.0" />
+            </points>
+            <fill>
+                <LinearGradient endX="0.14285714285714285" endY="0.23809523809523803" startX="0.9047619047619049" startY="0.23809523809523786">
+                    <stops>
+                        <Stop color="#054179" />
+                        <Stop color="#5e7979" offset="1.0" />
+                    </stops>
+                </LinearGradient>
+            </fill>
+            <effect>
+                <DropShadow spread="0.44" />
+            </effect>
+        </Polygon>
+        <Circle layoutX="35.0" layoutY="135.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+            <fill>
+                <RadialGradient centerX="0.7444444444444444" centerY="0.8333333333333334" cycleMethod="REFLECT" focusDistance="-0.023255813953488413" radius="0.8255813953488371">
+                    <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="BLACK" offset="0.007662835249042145" />
+                        <Stop color="#136d93" offset="1.0" />
+                    </stops>
+                </RadialGradient>
+            </fill></Circle>
+        <Circle layoutX="865.0" layoutY="135.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+            <fill>
+                <RadialGradient centerX="0.311111111111111" centerY="0.7857142857142858" cycleMethod="REFLECT" focusDistance="-0.023255813953488413" radius="0.7093023255813953">
+                    <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="BLACK" offset="0.007662835249042145" />
+                        <Stop color="#0e75a1" offset="1.0" />
+                    </stops>
+                </RadialGradient>
+            </fill>
+        </Circle>
+        <Circle layoutX="450.0" layoutY="127.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+            <fill>
+                <RadialGradient centerX="0.5166666666666666" centerY="0.8142857142857143" cycleMethod="REFLECT" focusDistance="-0.023255813953488413" radius="0.7093023255813953">
+                    <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="#117cab" offset="1.0" />
+                    </stops>
+                </RadialGradient>
+            </fill>
+        </Circle>
+        <Circle layoutX="865.0" layoutY="565.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+            <fill>
+                <RadialGradient centerX="0.41111111111111104" centerY="0.36190476190476195" cycleMethod="REFLECT" focusDistance="-0.023255813953488413" radius="0.8255813953488371">
+                    <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="BLACK" offset="0.007662835249042145" />
+                        <Stop color="#1383bf" offset="1.0" />
+                    </stops>
+                </RadialGradient>
+            </fill>
+        </Circle>
+        <Circle layoutX="450.0" layoutY="574.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+            <fill>
+                <RadialGradient centerX="0.48333333333333317" centerY="0.3238095238095239" cycleMethod="REFLECT" focusDistance="-0.023255813953488413" radius="0.5581395348837209">
+                    <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="#056180" offset="1.0" />
+                    </stops>
+                </RadialGradient>
+            </fill>
+        </Circle>
+        <Circle layoutX="35.0" layoutY="565.0" radius="20.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+            <fill>
+                <RadialGradient centerX="0.6444444444444444" centerY="0.44761904761904764" cycleMethod="REFLECT" focusDistance="-0.023255813953488413" radius="0.7906976744186046">
+                    <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="BLACK" offset="0.007662835249042145" />
+                        <Stop color="#1592d1" offset="1.0" />
+                    </stops>
+                </RadialGradient>
+            </fill>
+        </Circle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#127b90" height="29.0" layoutX="930.0" layoutY="8.0" stroke="BLACK" strokeType="INSIDE" width="110.0">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Rectangle>
+    </children>
+</Pane>
